@@ -35,8 +35,8 @@ Main modules (each significant one has its own `AGENTS.md`):
 - `tests/` — PHPUnit (unit + integration), QUnit, Jest, Selenium, API tests, parser tests. See `tests/AGENTS.md`.
 - `maintenance/` — ~200 CLI scripts (install, update, schema, rebuilds, imports). See `maintenance/AGENTS.md`.
 - `resources/` — front-end source: `mediawiki.*` JS/CSS modules, jQuery plugins, Vue/Codex. See `resources/AGENTS.md`.
-- `languages/` — i18n: `languages/i18n/*.json` messages, `languages/data`, `languages/messages` (per-language fallback/config).
-- `sql/` — database schema: abstract `sql/tables.json` → generated per-DB SQL (`sql/mysql`, `sql/postgres`, `sql/sqlite`).
+- `languages/` — i18n: `languages/i18n/*.json` messages, `languages/data`, `languages/messages` (per-language fallback/config). See `languages/AGENTS.md`.
+- `sql/` — database schema: abstract `sql/tables.json` → generated per-DB SQL (`sql/mysql`, `sql/postgres`, `sql/sqlite`). See `sql/AGENTS.md`.
 - `docs/` — developer documentation (`docs/Injection.md`, `docs/Hooks.md`, `docs/database.md` are the high-value ones).
 - `mw-config/` — the web-based installer's front controller.
 
