@@ -99,3 +99,11 @@ docker-compose.override.yml
 
 # Local tooling
 /graphify-out
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key
+
+# bd-run.sh agent driver per-run logs
+/.bd-run-logs/
