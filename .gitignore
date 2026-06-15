@@ -96,3 +96,6 @@ Thumbs.db
 docker-compose.override.yml
 .env
 .devcontainer/*
+
+# Local tooling
+/graphify-out
