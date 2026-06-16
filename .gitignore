@@ -100,7 +100,7 @@ docker-compose.override.yml
 # Local tooling
 /graphify-out
 
-# Beads / Dolt files (added by bd init)
+# Beads local runtime files. Portable .beads project files are tracked.
 .dolt/
 *.db
 .beads-credential-key
